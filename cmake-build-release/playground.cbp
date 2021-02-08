@@ -1,0 +1,329 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="playground"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;CMake Files\Program Files\;CMake Files\Program Files\mingw-w64\;CMake Files\Program Files\mingw-w64\x86_64-8.1.0-posix-seh-rt_v6-rev0\;CMake Files\Program Files\mingw-w64\x86_64-8.1.0-posix-seh-rt_v6-rev0\mingw64\;CMake Files\Program Files\mingw-w64\x86_64-8.1.0-posix-seh-rt_v6-rev0\mingw64\x86_64-w64-mingw32\;CMake Files\Program Files\mingw-w64\x86_64-8.1.0-posix-seh-rt_v6-rev0\mingw64\x86_64-w64-mingw32\lib\;CMake Files\Program Files\mingw-w64\x86_64-8.1.0-posix-seh-rt_v6-rev0\mingw64\x86_64-w64-mingw32\lib\cmake\;CMake Files\Program Files\mingw-w64\x86_64-8.1.0-posix-seh-rt_v6-rev0\mingw64\x86_64-w64-mingw32\lib\cmake\FreeGLUT\;CMake Files\Program Files\mingw-w64\x86_64-8.1.0-posix-seh-rt_v6-rev0\mingw64\x86_64-w64-mingw32\lib\cmake\glew\;CMake Files\Program Files\mingw-w64\x86_64-8.1.0-posix-seh-rt_v6-rev0\mingw64\x86_64-w64-mingw32\lib\cmake\glfw3\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="D:/piotr/University/ComputerGraphics/playground/cmake-build-release"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;D:/piotr/University/ComputerGraphics/playground/cmake-build-release/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;D:/piotr/University/ComputerGraphics/playground/cmake-build-release/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;D:/piotr/University/ComputerGraphics/playground/cmake-build-release/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;D:/piotr/University/ComputerGraphics/playground/cmake-build-release/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="imgui_test">
+				<Option output="D:/piotr/University/ComputerGraphics/playground/cmake-build-release/imgui_test.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="D:/piotr/University/ComputerGraphics/playground/cmake-build-release"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="D:/piotr/University/ComputerGraphics/playground/lib/imgui"/>
+					<Add directory="D:/piotr/University/ComputerGraphics/playground/."/>
+					<Add directory="C:/Program Files/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++"/>
+					<Add directory="C:/Program Files/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="C:/Program Files/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/backward"/>
+					<Add directory="C:/Program Files/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include"/>
+					<Add directory="C:/Program Files/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include-fixed"/>
+					<Add directory="C:/Program Files/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;D:/piotr/University/ComputerGraphics/playground/cmake-build-release/Makefile&quot;  VERBOSE=1 imgui_test"/>
+					<CompileFile command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;D:/piotr/University/ComputerGraphics/playground/cmake-build-release/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;D:/piotr/University/ComputerGraphics/playground/cmake-build-release/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;D:/piotr/University/ComputerGraphics/playground/cmake-build-release/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="imgui_test/fast">
+				<Option output="D:/piotr/University/ComputerGraphics/playground/cmake-build-release/imgui_test.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="D:/piotr/University/ComputerGraphics/playground/cmake-build-release"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="D:/piotr/University/ComputerGraphics/playground/lib/imgui"/>
+					<Add directory="D:/piotr/University/ComputerGraphics/playground/."/>
+					<Add directory="C:/Program Files/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++"/>
+					<Add directory="C:/Program Files/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="C:/Program Files/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/backward"/>
+					<Add directory="C:/Program Files/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include"/>
+					<Add directory="C:/Program Files/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include-fixed"/>
+					<Add directory="C:/Program Files/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;D:/piotr/University/ComputerGraphics/playground/cmake-build-release/Makefile&quot;  VERBOSE=1 imgui_test/fast"/>
+					<CompileFile command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;D:/piotr/University/ComputerGraphics/playground/cmake-build-release/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;D:/piotr/University/ComputerGraphics/playground/cmake-build-release/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;D:/piotr/University/ComputerGraphics/playground/cmake-build-release/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="playground">
+				<Option output="D:/piotr/University/ComputerGraphics/playground/cmake-build-release/playground.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="D:/piotr/University/ComputerGraphics/playground/cmake-build-release"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="D:/piotr/University/ComputerGraphics/playground/lib/imgui"/>
+					<Add directory="D:/piotr/University/ComputerGraphics/playground/."/>
+					<Add directory="C:/Program Files/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++"/>
+					<Add directory="C:/Program Files/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="C:/Program Files/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/backward"/>
+					<Add directory="C:/Program Files/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include"/>
+					<Add directory="C:/Program Files/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include-fixed"/>
+					<Add directory="C:/Program Files/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;D:/piotr/University/ComputerGraphics/playground/cmake-build-release/Makefile&quot;  VERBOSE=1 playground"/>
+					<CompileFile command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;D:/piotr/University/ComputerGraphics/playground/cmake-build-release/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;D:/piotr/University/ComputerGraphics/playground/cmake-build-release/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;D:/piotr/University/ComputerGraphics/playground/cmake-build-release/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="playground/fast">
+				<Option output="D:/piotr/University/ComputerGraphics/playground/cmake-build-release/playground.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="D:/piotr/University/ComputerGraphics/playground/cmake-build-release"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="D:/piotr/University/ComputerGraphics/playground/lib/imgui"/>
+					<Add directory="D:/piotr/University/ComputerGraphics/playground/."/>
+					<Add directory="C:/Program Files/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++"/>
+					<Add directory="C:/Program Files/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="C:/Program Files/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/backward"/>
+					<Add directory="C:/Program Files/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include"/>
+					<Add directory="C:/Program Files/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include-fixed"/>
+					<Add directory="C:/Program Files/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;D:/piotr/University/ComputerGraphics/playground/cmake-build-release/Makefile&quot;  VERBOSE=1 playground/fast"/>
+					<CompileFile command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;D:/piotr/University/ComputerGraphics/playground/cmake-build-release/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;D:/piotr/University/ComputerGraphics/playground/cmake-build-release/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;D:/piotr/University/ComputerGraphics/playground/cmake-build-release/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="D:/piotr/University/ComputerGraphics/playground/cmake-build-release"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;D:/piotr/University/ComputerGraphics/playground/cmake-build-release/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;D:/piotr/University/ComputerGraphics/playground/cmake-build-release/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;D:/piotr/University/ComputerGraphics/playground/cmake-build-release/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;D:/piotr/University/ComputerGraphics/playground/cmake-build-release/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="D:/piotr/University/ComputerGraphics/playground/cmake-build-release"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;D:/piotr/University/ComputerGraphics/playground/cmake-build-release/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;D:/piotr/University/ComputerGraphics/playground/cmake-build-release/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;D:/piotr/University/ComputerGraphics/playground/cmake-build-release/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;D:/piotr/University/ComputerGraphics/playground/cmake-build-release/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="D:/piotr/University/ComputerGraphics/playground/Camera.cpp">
+			<Option target="playground"/>
+		</Unit>
+		<Unit filename="D:/piotr/University/ComputerGraphics/playground/Camera.h">
+			<Option target="playground"/>
+		</Unit>
+		<Unit filename="D:/piotr/University/ComputerGraphics/playground/IndexBuffer.cpp">
+			<Option target="playground"/>
+		</Unit>
+		<Unit filename="D:/piotr/University/ComputerGraphics/playground/IndexBuffer.h">
+			<Option target="playground"/>
+		</Unit>
+		<Unit filename="D:/piotr/University/ComputerGraphics/playground/Light.h">
+			<Option target="playground"/>
+		</Unit>
+		<Unit filename="D:/piotr/University/ComputerGraphics/playground/Material.cpp">
+			<Option target="playground"/>
+		</Unit>
+		<Unit filename="D:/piotr/University/ComputerGraphics/playground/Material.h">
+			<Option target="playground"/>
+		</Unit>
+		<Unit filename="D:/piotr/University/ComputerGraphics/playground/Renderer.cpp">
+			<Option target="playground"/>
+		</Unit>
+		<Unit filename="D:/piotr/University/ComputerGraphics/playground/Renderer.h">
+			<Option target="playground"/>
+		</Unit>
+		<Unit filename="D:/piotr/University/ComputerGraphics/playground/Scene.h">
+			<Option target="playground"/>
+		</Unit>
+		<Unit filename="D:/piotr/University/ComputerGraphics/playground/Shader.cpp">
+			<Option target="playground"/>
+		</Unit>
+		<Unit filename="D:/piotr/University/ComputerGraphics/playground/Shader.h">
+			<Option target="playground"/>
+		</Unit>
+		<Unit filename="D:/piotr/University/ComputerGraphics/playground/Texture.cpp">
+			<Option target="playground"/>
+		</Unit>
+		<Unit filename="D:/piotr/University/ComputerGraphics/playground/Texture.h">
+			<Option target="playground"/>
+		</Unit>
+		<Unit filename="D:/piotr/University/ComputerGraphics/playground/VertexArray.cpp">
+			<Option target="playground"/>
+		</Unit>
+		<Unit filename="D:/piotr/University/ComputerGraphics/playground/VertexArray.h">
+			<Option target="playground"/>
+		</Unit>
+		<Unit filename="D:/piotr/University/ComputerGraphics/playground/VertexBuffer.cpp">
+			<Option target="playground"/>
+		</Unit>
+		<Unit filename="D:/piotr/University/ComputerGraphics/playground/VertexBuffer.h">
+			<Option target="playground"/>
+		</Unit>
+		<Unit filename="D:/piotr/University/ComputerGraphics/playground/VertexBufferLayout.cpp">
+			<Option target="playground"/>
+		</Unit>
+		<Unit filename="D:/piotr/University/ComputerGraphics/playground/VertexBufferLayout.h">
+			<Option target="playground"/>
+		</Unit>
+		<Unit filename="D:/piotr/University/ComputerGraphics/playground/lib/imgui/imconfig.h">
+			<Option target="imgui_test"/>
+			<Option target="playground"/>
+		</Unit>
+		<Unit filename="D:/piotr/University/ComputerGraphics/playground/lib/imgui/imgui.cpp">
+			<Option target="imgui_test"/>
+			<Option target="playground"/>
+		</Unit>
+		<Unit filename="D:/piotr/University/ComputerGraphics/playground/lib/imgui/imgui.h">
+			<Option target="imgui_test"/>
+			<Option target="playground"/>
+		</Unit>
+		<Unit filename="D:/piotr/University/ComputerGraphics/playground/lib/imgui/imgui_demo.cpp">
+			<Option target="imgui_test"/>
+			<Option target="playground"/>
+		</Unit>
+		<Unit filename="D:/piotr/University/ComputerGraphics/playground/lib/imgui/imgui_draw.cpp">
+			<Option target="imgui_test"/>
+			<Option target="playground"/>
+		</Unit>
+		<Unit filename="D:/piotr/University/ComputerGraphics/playground/lib/imgui/imgui_impl_glfw.cpp">
+			<Option target="imgui_test"/>
+			<Option target="playground"/>
+		</Unit>
+		<Unit filename="D:/piotr/University/ComputerGraphics/playground/lib/imgui/imgui_impl_glfw.h">
+			<Option target="imgui_test"/>
+			<Option target="playground"/>
+		</Unit>
+		<Unit filename="D:/piotr/University/ComputerGraphics/playground/lib/imgui/imgui_impl_opengl3.cpp">
+			<Option target="imgui_test"/>
+			<Option target="playground"/>
+		</Unit>
+		<Unit filename="D:/piotr/University/ComputerGraphics/playground/lib/imgui/imgui_impl_opengl3.h">
+			<Option target="imgui_test"/>
+			<Option target="playground"/>
+		</Unit>
+		<Unit filename="D:/piotr/University/ComputerGraphics/playground/lib/imgui/imgui_internal.h">
+			<Option target="imgui_test"/>
+			<Option target="playground"/>
+		</Unit>
+		<Unit filename="D:/piotr/University/ComputerGraphics/playground/lib/imgui/imgui_tables.cpp">
+			<Option target="imgui_test"/>
+			<Option target="playground"/>
+		</Unit>
+		<Unit filename="D:/piotr/University/ComputerGraphics/playground/lib/imgui/imgui_widgets.cpp">
+			<Option target="imgui_test"/>
+			<Option target="playground"/>
+		</Unit>
+		<Unit filename="D:/piotr/University/ComputerGraphics/playground/lib/imgui/imstb_rectpack.h">
+			<Option target="imgui_test"/>
+			<Option target="playground"/>
+		</Unit>
+		<Unit filename="D:/piotr/University/ComputerGraphics/playground/lib/imgui/imstb_textedit.h">
+			<Option target="imgui_test"/>
+			<Option target="playground"/>
+		</Unit>
+		<Unit filename="D:/piotr/University/ComputerGraphics/playground/lib/imgui/imstb_truetype.h">
+			<Option target="imgui_test"/>
+			<Option target="playground"/>
+		</Unit>
+		<Unit filename="D:/piotr/University/ComputerGraphics/playground/lib/imgui/main.cpp">
+			<Option target="imgui_test"/>
+		</Unit>
+		<Unit filename="D:/piotr/University/ComputerGraphics/playground/lib/stb/stb_image.cpp">
+			<Option target="playground"/>
+		</Unit>
+		<Unit filename="D:/piotr/University/ComputerGraphics/playground/lib/stb/stb_image.h">
+			<Option target="playground"/>
+		</Unit>
+		<Unit filename="D:/piotr/University/ComputerGraphics/playground/main.cpp">
+			<Option target="playground"/>
+		</Unit>
+		<Unit filename="D:/piotr/University/ComputerGraphics/playground/scenes/ManyBoxesScene.h">
+			<Option target="imgui_test"/>
+		</Unit>
+		<Unit filename="D:/piotr/University/ComputerGraphics/playground/scenes/MaterialLightMapsScene.h">
+			<Option target="imgui_test"/>
+		</Unit>
+		<Unit filename="D:/piotr/University/ComputerGraphics/playground/scenes/MultipleLightsScene.h">
+			<Option target="playground"/>
+		</Unit>
+		<Unit filename="D:/piotr/University/ComputerGraphics/playground/scenes/SimpleBoxScene.h">
+			<Option target="imgui_test"/>
+		</Unit>
+		<Unit filename="D:/piotr/University/ComputerGraphics/playground/scenes/SimpleLightningScene.h">
+			<Option target="playground"/>
+		</Unit>
+		<Unit filename="D:/piotr/University/ComputerGraphics/playground/shapes.cpp">
+			<Option target="playground"/>
+		</Unit>
+		<Unit filename="D:/piotr/University/ComputerGraphics/playground/shapes.h">
+			<Option target="playground"/>
+		</Unit>
+		<Unit filename="D:/piotr/University/ComputerGraphics/playground/utils.h">
+			<Option target="playground"/>
+		</Unit>
+		<Unit filename="D:/piotr/University/ComputerGraphics/playground/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+		<Unit filename="D:/piotr/University/ComputerGraphics/playground/Program Files/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/x86_64-w64-mingw32/lib/cmake/FreeGLUT/FreeGLUTConfig.cmake">
+			<Option virtualFolder="CMake Files\Program Files\mingw-w64\x86_64-8.1.0-posix-seh-rt_v6-rev0\mingw64\x86_64-w64-mingw32\lib\cmake\FreeGLUT\"/>
+		</Unit>
+		<Unit filename="D:/piotr/University/ComputerGraphics/playground/Program Files/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/x86_64-w64-mingw32/lib/cmake/FreeGLUT/FreeGLUTConfigVersion.cmake">
+			<Option virtualFolder="CMake Files\Program Files\mingw-w64\x86_64-8.1.0-posix-seh-rt_v6-rev0\mingw64\x86_64-w64-mingw32\lib\cmake\FreeGLUT\"/>
+		</Unit>
+		<Unit filename="D:/piotr/University/ComputerGraphics/playground/Program Files/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/x86_64-w64-mingw32/lib/cmake/FreeGLUT/FreeGLUTTargets-noconfig.cmake">
+			<Option virtualFolder="CMake Files\Program Files\mingw-w64\x86_64-8.1.0-posix-seh-rt_v6-rev0\mingw64\x86_64-w64-mingw32\lib\cmake\FreeGLUT\"/>
+		</Unit>
+		<Unit filename="D:/piotr/University/ComputerGraphics/playground/Program Files/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/x86_64-w64-mingw32/lib/cmake/FreeGLUT/FreeGLUTTargets.cmake">
+			<Option virtualFolder="CMake Files\Program Files\mingw-w64\x86_64-8.1.0-posix-seh-rt_v6-rev0\mingw64\x86_64-w64-mingw32\lib\cmake\FreeGLUT\"/>
+		</Unit>
+		<Unit filename="D:/piotr/University/ComputerGraphics/playground/Program Files/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/x86_64-w64-mingw32/lib/cmake/glew/CopyImportedTargetProperties.cmake">
+			<Option virtualFolder="CMake Files\Program Files\mingw-w64\x86_64-8.1.0-posix-seh-rt_v6-rev0\mingw64\x86_64-w64-mingw32\lib\cmake\glew\"/>
+		</Unit>
+		<Unit filename="D:/piotr/University/ComputerGraphics/playground/Program Files/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/x86_64-w64-mingw32/lib/cmake/glew/glew-config.cmake">
+			<Option virtualFolder="CMake Files\Program Files\mingw-w64\x86_64-8.1.0-posix-seh-rt_v6-rev0\mingw64\x86_64-w64-mingw32\lib\cmake\glew\"/>
+		</Unit>
+		<Unit filename="D:/piotr/University/ComputerGraphics/playground/Program Files/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/x86_64-w64-mingw32/lib/cmake/glew/glew-targets-release.cmake">
+			<Option virtualFolder="CMake Files\Program Files\mingw-w64\x86_64-8.1.0-posix-seh-rt_v6-rev0\mingw64\x86_64-w64-mingw32\lib\cmake\glew\"/>
+		</Unit>
+		<Unit filename="D:/piotr/University/ComputerGraphics/playground/Program Files/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/x86_64-w64-mingw32/lib/cmake/glew/glew-targets.cmake">
+			<Option virtualFolder="CMake Files\Program Files\mingw-w64\x86_64-8.1.0-posix-seh-rt_v6-rev0\mingw64\x86_64-w64-mingw32\lib\cmake\glew\"/>
+		</Unit>
+		<Unit filename="D:/piotr/University/ComputerGraphics/playground/Program Files/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/x86_64-w64-mingw32/lib/cmake/glfw3/glfw3Config.cmake">
+			<Option virtualFolder="CMake Files\Program Files\mingw-w64\x86_64-8.1.0-posix-seh-rt_v6-rev0\mingw64\x86_64-w64-mingw32\lib\cmake\glfw3\"/>
+		</Unit>
+		<Unit filename="D:/piotr/University/ComputerGraphics/playground/Program Files/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/x86_64-w64-mingw32/lib/cmake/glfw3/glfw3ConfigVersion.cmake">
+			<Option virtualFolder="CMake Files\Program Files\mingw-w64\x86_64-8.1.0-posix-seh-rt_v6-rev0\mingw64\x86_64-w64-mingw32\lib\cmake\glfw3\"/>
+		</Unit>
+		<Unit filename="D:/piotr/University/ComputerGraphics/playground/Program Files/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/x86_64-w64-mingw32/lib/cmake/glfw3/glfw3Targets-noconfig.cmake">
+			<Option virtualFolder="CMake Files\Program Files\mingw-w64\x86_64-8.1.0-posix-seh-rt_v6-rev0\mingw64\x86_64-w64-mingw32\lib\cmake\glfw3\"/>
+		</Unit>
+		<Unit filename="D:/piotr/University/ComputerGraphics/playground/Program Files/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/x86_64-w64-mingw32/lib/cmake/glfw3/glfw3Targets.cmake">
+			<Option virtualFolder="CMake Files\Program Files\mingw-w64\x86_64-8.1.0-posix-seh-rt_v6-rev0\mingw64\x86_64-w64-mingw32\lib\cmake\glfw3\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>

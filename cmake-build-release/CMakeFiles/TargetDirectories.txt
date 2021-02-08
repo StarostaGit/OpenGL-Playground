@@ -1,0 +1,4 @@
+D:/piotr/University/ComputerGraphics/playground/cmake-build-release/CMakeFiles/imgui_test.dir
+D:/piotr/University/ComputerGraphics/playground/cmake-build-release/CMakeFiles/playground.dir
+D:/piotr/University/ComputerGraphics/playground/cmake-build-release/CMakeFiles/edit_cache.dir
+D:/piotr/University/ComputerGraphics/playground/cmake-build-release/CMakeFiles/rebuild_cache.dir
